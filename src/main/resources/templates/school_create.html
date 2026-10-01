@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Create School</title>
+	<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<div class="form-container">
+
+	<h1>Create a school</h1>
+
+	<form action="/school/create" method="post">
+	
+		<label for="school-name">Name:</label>
+		<input id="school-name" name="name" required type="text">
+	
+		<label for="school-capacity">Capacity:</label>
+		<input id="school-capacity" name="capacity" required type="number">
+	
+		<label for="school-country">Country:</label>
+		<input id="school-country" name="country" required type="text">
+	
+		<input type="submit" value="Send">
+		
+	</form>
+	
+</div>
+
+</body>
+</html>
